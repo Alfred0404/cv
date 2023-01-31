@@ -1,0 +1,101 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    color: #EEF0F2;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(135deg, #011638, #002157);
+}
+
+.en-tete {
+    position: absolute;
+    width:816px;
+    left: 50%;
+    margin-left: -408px;
+    margin-top: -50px;
+    top: 10%;
+    font-size: 600%;
+    text-shadow:#fff 1px 0 10px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    padding: 50px;
+    background-color:#1a1b26;
+    height: 200%;
+    width: 73%;
+    border-radius: 20px;
+    box-shadow:0 0 15px 10px #011638;
+}
+
+.home {
+    color: #fff;
+    font-size: 40px;
+    width: 19%;
+}
+
+.projets {
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    top: -40px;
+    width: 28%;
+}
+
+.info_morpion, .info_dames, .info_labyrinthe {
+    display: grid;
+    grid-template-columns: 700px 400px;
+}
+
+.info_dames {
+    display: grid;
+    position: relative;
+    top: 100px;
+}
+.info_labyrinthe {
+    position: relative;
+    top: 150px;
+}
+
+.img_morpion, .img_dames, .img_labyrinthe {
+    border-radius:20px;
+}
+
+.img_dames {
+    height: 300px;
+    position: relative;
+    left: 10%;
+}
+
+.texte_morpion {
+    font-size: 30px;
+    position: relative;
+    left: 10%;
+}
+
+.texte_dames {
+    font-size: 30px;
+    position: relative;
+    left: -20%;
+}
+.texte_labyrinthe {
+    font-size: 30px;
+    position: relative;
+    left: 69px;
+}
+
+.deux_joueurs, .python, .pygame, .def, .IA, .tkinter, .joueurs, .conio, .c {
+    color: rgb(255, 179, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: -200%;
+}
